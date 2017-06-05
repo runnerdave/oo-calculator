@@ -39,3 +39,27 @@ are permitted to run with one operand as well.
 
 Extensibility would then require changes to the controller and the validation rules only.
 
+# Build
+``$mvn clean package``
+
+# Run
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar OPERAND OPERATION OPERAND``
+
+Examples:
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar 1 - 2
+  -1.0
+``
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar sin 3
+  0.1411200080598672
+``
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar 3 3 4
+  operation is not valid!
+``
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar + 2
+  4.0
+``
