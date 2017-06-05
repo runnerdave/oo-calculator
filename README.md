@@ -49,6 +49,7 @@ Extensibility would then require changes to the controller and the validation ru
 Examples:
 
 ``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar 1 - 2
+
   -1.0
 ``
 
