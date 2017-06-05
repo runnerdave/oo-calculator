@@ -52,13 +52,16 @@ Examples:
 
   ``-1.0``
 
+
 ``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar sin 3``
+
 ``  0.1411200080598672``
 
-``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar 3 3 4
-  operation is not valid!
-``
 
-``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar + 2
-  4.0
-``
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar 3 3 4``
+
+``  operation is not valid!``
+
+
+``java -jar target\calculator-2.0-SNAPSHOT-jar-with-dependencies.jar + 2``
+  ``4.0``
