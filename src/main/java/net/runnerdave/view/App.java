@@ -37,7 +37,7 @@ public class App {
                 System.out.println(BUNDLE.getString("error.message.invalid.input"));
                 return;
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | UnsupportedOperationException e) {
             System.out.println(e.getMessage());
             return;
         }
