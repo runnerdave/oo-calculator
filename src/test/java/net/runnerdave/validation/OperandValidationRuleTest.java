@@ -2,6 +2,8 @@ package net.runnerdave.validation;
 
 import org.junit.Test;
 
+import java.util.ResourceBundle;
+
 import static org.junit.Assert.assertTrue;
 
 /**

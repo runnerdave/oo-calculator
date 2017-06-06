@@ -15,7 +15,9 @@ public class Controller {
       controllerMap.put("+", new Add());
       controllerMap.put("-", new Subtract());
       controllerMap.put("/", new Divide());
+      controllerMap.put("div", new Divide());
       controllerMap.put("*", new Multiply());
+      controllerMap.put("x", new Multiply());
       controllerMap.put("sin", new Sine());
       controllerMap.put("cos", new Cosine());
    }
